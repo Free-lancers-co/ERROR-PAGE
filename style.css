@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+}
+
+.hero-container{
+    height: 140vh;
+    width: 100%;
+   background-color: #333;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo{
+    width: 150px;
+}
+
+ul li{
+    list-style: none;
+    
+    
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.error-col{
+    text-align: center;
+    line-height: 2em;
+    color: #ffffff;
+}
+
+.error-col h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: rgb(62, 136, 165);
+}
+
+.error-col h3{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.error-col p{
+    margin-top: 20px;
+   max-width: 28em;
+}
+
+
+.hero-img{
+    align-self: center;
+}
+
+.social-icons{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social-icons h4{
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.social-links{
+    display: flex;
+    gap: 10px;
+    margin-left: 230px;
+}
+
+.fa-brands{
+    font-size: 1.5em;
+    color: #333;
+    padding: 5px 5px;
+    background: #ffffff;
+    
+}
+
+.fa-brands:hover{
+    background: transparent;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+/* Footer Section */
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 30px;
+}
+
+.footer-logo{
+    width: 120px;
+    background-color: #333;
+    padding: 10px 15px;
+}
+
+.col-1 h1{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.col-1 h3{
+    margin-top: 18px;
+}
+
+.col-1 p{
+    max-width: 25em;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+label{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input{
+    padding: 5px 20px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: #333 1px  solid;
+}
+
+button{
+    margin-top: 10px;
+    padding: 0.5em 2em;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover{
+    background: transparent;
+    color: #333;
+    border: #333 1px solid;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
